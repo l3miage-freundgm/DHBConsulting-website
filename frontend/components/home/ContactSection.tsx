@@ -1,4 +1,3 @@
-import { Mail, Phone, MapPin, Clock, Calendar } from 'lucide-react'
 import { textures } from '../../lib/utils'
 
 export function ContactSection() {
@@ -13,7 +12,7 @@ export function ContactSection() {
                                 GET IN TOUCH
                             </span>
                             <h2 className="text-3xl md:text-4xl font-light text-gray-900 leading-tight mb-6">
-                                Let's Discuss Your Well Integrity Needs
+                                Let&apos;s Discuss Your Well Integrity Needs
                             </h2>
                             <p className="text-lg text-gray-600 font-light leading-relaxed">
                                 Reach out for consultations on well integrity management, audits, and specialized technical services.

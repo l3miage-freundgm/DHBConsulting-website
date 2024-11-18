@@ -48,7 +48,7 @@ export default function ContactPage() {
                             CONTACT US
                         </span>
                         <h1 className="text-4xl md:text-5xl font-light text-gray-900 leading-tight mb-6">
-                            Let's Discuss Your Well Integrity Needs
+                            Let&apos;s Discuss Your Well Integrity Needs
                         </h1>
                         <p className="text-lg text-gray-600 font-light leading-relaxed">
                             Get in touch to explore how our expertise can enhance your well integrity management.

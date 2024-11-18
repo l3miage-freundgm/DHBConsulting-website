@@ -15,7 +15,7 @@ export function AchievementsSection() {
                         Setting New Standards in Well Integrity Management
                     </h2>
                     <p className="text-lg text-gray-600 font-light leading-relaxed">
-                        Through strategic innovation and technical excellence, we've transformed well integrity practices
+                        Through strategic innovation and technical excellence, we&apos;ve transformed well integrity practices
                         across major energy operations worldwide.
                     </p>
                 </div>
@@ -79,7 +79,7 @@ export function AchievementsSection() {
                                 FEATURED ACHIEVEMENT
                             </span>
                             <h3 className="text-2xl font-light text-gray-900 mb-6">
-                                Transforming ADNOC's Well Integrity Management
+                                Transforming ADNOC&apos;s Well Integrity Management
                             </h3>
                             <p className="text-gray-600 font-light mb-8 leading-relaxed">
                                 Led the development and implementation of comprehensive well integrity management

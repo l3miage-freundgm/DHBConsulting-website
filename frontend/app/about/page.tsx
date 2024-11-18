@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { GraduationCap, Award, Users2, Briefcase, Shield, Target } from 'lucide-react'
+import { GraduationCap, Award, Users2, Shield, Target } from 'lucide-react'
 import { scrollToSection } from '@/lib/utils'
 import { ValuesSection } from '../../components/about/ValuesSection'
 import { ContactSection } from '../../components/home/ContactSection'
@@ -226,7 +226,7 @@ export default function WhoWeArePage() {
                         <div>
                             <h2 className="text-2xl font-light text-gray-900 mb-8">Global Impact</h2>
                             <p className="text-lg text-gray-600 font-light mb-8 leading-relaxed">
-                                Through innovative solutions and strategic leadership, we've achieved remarkable results across international operations, setting new standards in well integrity management.
+                                Through innovative solutions and strategic leadership, we have achieved remarkable results across international operations, setting new standards in well integrity management.
                             </p>
                             <div className="grid grid-cols-2 gap-6">
                                 {[

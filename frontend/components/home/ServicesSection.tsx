@@ -135,7 +135,7 @@ const documentedServices = [
 ];
 
 export function ServicesSection() {
-    const [activeId, setActiveId] = useState(null)
+    const [activeId, setActiveId] = useState<number | null>(null);
 
     return (
         <section id="services" className="py-24 bg-[#F5F7F9] py-24" style={textures.grid}>

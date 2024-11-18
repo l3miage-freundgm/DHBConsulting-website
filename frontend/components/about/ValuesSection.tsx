@@ -95,8 +95,8 @@ export function ValuesSection() {
                 <div className="mt-16 p-8 bg-gray-50 rounded-lg">
                     <div className="max-w-3xl mx-auto text-center">
                         <p className="text-lg text-gray-600 font-light italic">
-                            "Our values reflect our commitment to excellence and innovation in well integrity management,
-                            driving sustainable solutions that protect assets and optimize operations."
+                            &quot;Our values reflect our commitment to excellence and innovation in well integrity management,
+                            driving sustainable solutions that protect assets and optimize operations.&quot;
                         </p>
                         <div className="mt-4 text-sm text-gray-500 font-medium">
                             Dr. Hamdi Daghmouni
