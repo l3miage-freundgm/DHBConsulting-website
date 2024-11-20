@@ -2,53 +2,18 @@
 
 import Image from 'next/image'
 import { GraduationCap, Award, Users2, Shield, Target } from 'lucide-react'
-import { scrollToSection } from '@/lib/utils'
 import { ValuesSection } from '../../components/about/ValuesSection'
 import { ContactSection } from '../../components/home/ContactSection'
+import { AboutHeroSection } from '../../components/about/AboutHeroSection'
 
 export default function WhoWeArePage() {
     return (
         <main className="pt-32">
             {/* Hero Section - Keep the personal touch */}
-            <section className="py-16">
-                <div className="max-w-6xl mx-auto px-4">
-                    <div className="grid md:grid-cols-2 gap-12 items-center">
-                        {/* Text Content */}
-                        <div>
-                            <span className="inline-block text-sm tracking-widest text-gray-500 font-light mb-6">
-                                WHO WE ARE
-                            </span>
-                            <h1 className="text-3xl md:text-4xl font-light text-gray-900 leading-tight mb-6">
-                                Dr. Hamdi Daghmouni
-                            </h1>
-                            <p className="text-lg text-gray-600 font-light mb-6 leading-relaxed">
-                                Senior Well Integrity and Well Examination Specialist with over three decades of expertise in optimizing well operating envelope throughout operation and production life of well lifecycle phases.
-                            </p>
-                            <div className="flex gap-4">
-                                <button onClick={() => scrollToSection('consultation')}
-                                    className="px-8 py-4 bg-gray-900 text-white hover:bg-gray-800 transition-colors text-sm tracking-widest font-light">
-                                    GET IN TOUCH
-                                </button>
-                            </div>
-                        </div>
-                        {/* Profile Image  */}
-                        <div className="relative">
-                            <div className="relative h-[200px] w-[200px] w-full rounded-lg overflow-hidden">
-                                <Image
-                                    src="/images/profile.jpg"
-                                    alt="Dr. Hamdi Daghmouni"
-                                    fill
-                                    className="object-cover"
-                                />
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <AboutHeroSection />
 
             {/* Key Expertise */}
-            <section className="py-24 bg-gray-50">
+            <section className="py-24">
                 <div className="max-w-6xl mx-auto px-4">
                     <h2 className="text-2xl font-light text-gray-900 mb-12">Areas of Expertise</h2>
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -84,7 +49,7 @@ export default function WhoWeArePage() {
             </section>
 
             {/* Experience & Qualifications */}
-            <section className="py-24 bg-white">
+            <section className="py-24 bg-gray-50">
                 <div className="max-w-6xl mx-auto px-4">
                     <div className="grid md:grid-cols-2 gap-16">
                         {/* Qualifications */}
@@ -94,12 +59,12 @@ export default function WhoWeArePage() {
                                 <div className="bg-gray-50 p-8 rounded-lg">
                                     <GraduationCap className="h-6 w-6 text-gray-600 mb-4" />
                                     <h3 className="text-lg font-medium text-gray-900 mb-2">
-                                        Doctor of Philosophy
+                                        Phd. Petroleum Engineering and Chemicals
                                     </h3>
                                     <p className="text-gray-600 font-light">
-                                        Petroleum Engineering and Chemicals
+                                        Polytechnical University
                                         <br />
-                                        Polytechnical University of Wroclaw, Poland
+                                        Wroclaw, Poland
                                     </p>
                                 </div>
                                 <div className="bg-gray-50 p-8 rounded-lg">
@@ -145,7 +110,7 @@ export default function WhoWeArePage() {
                                         ]
                                     },
                                     {
-                                        period: "1999 - 2008",
+                                        period: "1994 - 2008",
                                         role: "Senior Production Technologist",
                                         company: "Tunisian Petroleum Company",
                                         description: "Optimized production through technological integrations and advanced data analysis. Led more than 25 on- and offshore workover operations.",
@@ -179,7 +144,7 @@ export default function WhoWeArePage() {
             </section>
 
             {/* Photo Gallery & Impact */}
-            <section className="py-24 bg-gray-50">
+            <section className="py-24 ">
                 <div className="max-w-6xl mx-auto px-4">
                     <div className="grid md:grid-cols-2 gap-16 items-center">
                         {/* Gallery */}

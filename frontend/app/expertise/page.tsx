@@ -2,34 +2,14 @@
 
 import Image from 'next/image'
 import { Shield, Search, FileCheck, Users2, Drill, Microchip } from 'lucide-react'
-import { scrollToSection } from '../../lib/utils'
 import { ContactSection } from '../../components/home/ContactSection'
+import { ExpertiseHeroSection } from '../../components/expertise/ExpertiseHeroSection'
 
 export default function ExpertisePage() {
     return (
         <main className="pt-32">
             {/* Hero Section */}
-            <section className="relative py-20 bg-gray-50">
-                <div className="max-w-6xl mx-auto px-4">
-                    <div className="max-w-3xl">
-                        <span className="inline-block text-sm tracking-widest text-gray-500 font-light mb-6">
-                            OUR EXPERTISE
-                        </span>
-                        <h1 className="text-4xl md:text-5xl font-light text-gray-900 leading-tight mb-6">
-                            Technical Excellence in Well Integrity
-                        </h1>
-                        <p className="text-lg text-gray-600 font-light leading-relaxed mb-8">
-                            Three decades of specialized experience in well integrity management, drilling operations, and technical leadership across global energy projects.
-                        </p>
-                        <button
-                            onClick={() => scrollToSection('consultation')}
-                            className="px-8 py-4 bg-gray-900 text-white hover:bg-gray-800 transition-colors text-sm tracking-widest font-light"
-                        >
-                            DISCUSS YOUR NEEDS
-                        </button>
-                    </div>
-                </div>
-            </section>
+            <ExpertiseHeroSection />
 
             {/* Core Competencies */}
             <section className="py-24 bg-white">

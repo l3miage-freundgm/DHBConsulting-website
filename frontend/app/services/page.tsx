@@ -1,9 +1,9 @@
 'use client'
 
 import { Shield, Database, Settings } from 'lucide-react'
-import { scrollToSection } from '../../lib/utils'
 import { ContactSection } from '../../components/home/ContactSection'
 import Image from 'next/image'
+import { ServicesHeroSection } from '../../components/services/ServicesHeroSection'
 
 
 const services = [
@@ -68,27 +68,7 @@ export default function ServicesPage() {
     return (
         <main className="pt-32">
             {/* Hero Section */}
-            <section className="relative py-20 bg-gray-50">
-                <div className="max-w-6xl mx-auto px-4">
-                    <div className="max-w-3xl">
-                        <span className="inline-block text-sm tracking-widest text-gray-500 font-light mb-6">
-                            OUR SERVICES
-                        </span>
-                        <h1 className="text-4xl md:text-5xl font-light text-gray-900 leading-tight mb-6">
-                            Comprehensive Well Integrity Solutions
-                        </h1>
-                        <p className="text-lg text-gray-600 font-light leading-relaxed mb-8">
-                            Expert well integrity management services backed by three decades of industry experience and academic excellence.
-                        </p>
-                        <button
-                            onClick={() => scrollToSection('consultation')}
-                            className="px-8 py-4 bg-gray-900 text-white hover:bg-gray-800 transition-colors text-sm tracking-widest font-light"
-                        >
-                            DISCUSS YOUR NEEDS
-                        </button>
-                    </div>
-                </div>
-            </section>
+            <ServicesHeroSection />
 
             {/* Services Grid */}
             <section className="py-24 bg-white">
