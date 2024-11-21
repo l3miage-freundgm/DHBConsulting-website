@@ -18,23 +18,6 @@ export function ServicesHeroSection() {
         visible: { opacity: 1, y: 0 }
     }
 
-    // Background grid animation
-    const gridVariants = {
-        hidden: { opacity: 0 },
-        visible: {
-            opacity: 0.3,
-            transition: {
-                staggerChildren: 0.05,
-                delayChildren: 0.1
-            }
-        }
-    }
-
-    const dotVariants = {
-        hidden: { scale: 0 },
-        visible: { scale: 1 }
-    }
-
     return (
         <section className="relative py-20 bg-gray-50 overflow-hidden">
 
