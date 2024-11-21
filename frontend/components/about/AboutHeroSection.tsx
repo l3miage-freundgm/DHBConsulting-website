@@ -89,7 +89,7 @@ export function AboutHeroSection() {
                                 <motion.div
                                     className="relative w-[200px] h-[200px] mx-auto"
                                 >
-                                    <div className="w-full h-full rounded-lg overflow-hidden bg-white shadow-lg">
+                                    <div className="w-full h-full overflow-hidden bg-white shadow-lg">
                                         <Image
                                             src="/images/profile.jpg"
                                             alt="Dr. Hamdi Daghmouni"
@@ -98,17 +98,6 @@ export function AboutHeroSection() {
                                             className="object-cover"
                                         />
                                     </div>
-
-                                    {/* Corner accents */}
-                                    {['-top-1 -left-1', '-top-1 -right-1', '-bottom-1 -left-1', '-bottom-1 -right-1'].map((position, i) => (
-                                        <motion.div
-                                            key={i}
-                                            initial={{ scale: 0 }}
-                                            animate={{ scale: 1 }}
-                                            transition={{ delay: 0.5 + (i * 0.1) }}
-                                            className={`absolute ${position} w-2 h-2 bg-gray-900`}
-                                        />
-                                    ))}
                                 </motion.div>
 
                                 
